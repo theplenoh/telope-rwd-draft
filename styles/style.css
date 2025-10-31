@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/** CSS reset **/
+@import url("/styles/reset.css");
+/** Web fonts **/
+@import url("/styles/webfont-Pretendard.css");
+
+/** Common **/
+
+/** Typography **/
+
+/** Layout **/
+/* BEGIN::body */
+    body {
+    }
+/* END::body */
+
+/** Modules **/
+
+/** Specifics **/
