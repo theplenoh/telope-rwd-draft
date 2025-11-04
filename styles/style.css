@@ -26,3 +26,12 @@ header > .wrap-inner {
     body {
     }
 /* END::body */
+
+/** Scaffolding **/
+main {
+    display: none;
+}
+
+header > .wrap-inner * {
+    display: none;
+}
