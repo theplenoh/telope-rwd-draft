@@ -43,6 +43,11 @@ header > .wrap-inner {
     body {
     }
 /* END::body */
+/* BEGIN::header */
+    header {
+        background: transparent url('/images/header-bg.png') 50% 0 repeat-x;
+    }
+/* END::header */
 
 /** Scaffolding **/
 main {
