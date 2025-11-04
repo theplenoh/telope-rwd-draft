@@ -6,6 +6,23 @@
 @import url("/styles/webfont-Pretendard.css");
 
 /** Common **/
+html, html * {
+    box-sizing: border-box;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+}
+mark {
+    background-color: transparent;
+    color: inherit;
+}
 
 /** Typography **/
 
