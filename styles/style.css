@@ -28,7 +28,7 @@ mark {
 
 /** Layout **/
 header {
-    
+    width: 100%;
 }
 header > .wrap-inner {
     width: 960px;
