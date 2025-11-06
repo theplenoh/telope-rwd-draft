@@ -87,15 +87,11 @@ header > .wrap-inner {
         padding-top: 71px;
     }
     #gnb > ul {
-        font-size: 0;
-    }
-    #gnb > ul > li {
-        display: inline-block;
+        display: flex;
     }
     #gnb > ul > li > a {
         display: block;
         padding: 6px 6.5px;
-        font-size: 13px;
         text-transform: uppercase;
     }
 /* END::header */
