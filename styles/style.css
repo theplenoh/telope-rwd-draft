@@ -61,20 +61,11 @@ header {
     width: 100%;
 }
 header > .wrap-inner {
+    display: flex;
+    justify-content: space-between;
     width: 960px;
     height: 110px;
     margin: 0 auto;
-}
-#logo {
-    float: left;
-}
-#gnb {
-    float: right;
-}
-header > .wrap-inner::after {
-    display: block;
-    content: '';
-    clear: both;
 }
 
 /** Modules **/
