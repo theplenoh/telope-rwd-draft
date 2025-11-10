@@ -1,13 +1,15 @@
 @charset 'utf-8';
 
-/** CSS reset **/
+/*** CSS reset ***/
 @import url('/styles/reset.css');
-/** Web fonts **/
+/*** Web fonts ***/
 @import url('/styles/webfont-Pretendard.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-/** Common **/
+
+
+/*** Common ***/
 html, html * {
     box-sizing: border-box;
 }
@@ -26,7 +28,7 @@ mark {
     color: inherit;
 }
 
-/** Typography **/
+/*** Typography ***/
 body {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
@@ -56,7 +58,7 @@ h1 {
     letter-spacing: -0.01em;
 }
 
-/** Layout **/
+/*** Layout ***/
 header {
     width: 100%;
 }
@@ -68,9 +70,9 @@ header > .wrap-inner {
     margin: 0 auto;
 }
 
-/** Modules **/
+/*** Modules ***/
 
-/** Details **/
+/*** Details ***/
 /* BEGIN::body */
     body {
         background: #fff;
@@ -96,7 +98,7 @@ header > .wrap-inner {
     }
 /* END::header */
 
-/** Scaffolding **/
+/*** Scaffolding ***/
 main {
     display: none;
 }
