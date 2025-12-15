@@ -54,7 +54,7 @@ h1 {
     line-height: 20px;
     letter-spacing: -0.01em;
 }
-#gnb {
+.gnb {
     letter-spacing: -0.01em;
 }
 
@@ -85,13 +85,13 @@ h1 {
     #logo {
         padding-top: 27px;
     }
-    #gnb {
+    .gnb {
         padding-top: 71px;
     }
-    #gnb > ul {
+    .gnb > ul {
         display: flex;
     }
-    #gnb > ul > li > a {
+    .gnb > ul > li > a {
         display: block;
         padding: 6px 6.5px;
         text-transform: uppercase;
