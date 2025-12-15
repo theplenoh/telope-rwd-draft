@@ -43,18 +43,18 @@ body {
     color: inherit;
     text-decoration: none;
 }
-h1 {
+#masthead h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
 }
-.subtitle {
+#masthead .subtitle {
     font-size: 13px;
     line-height: 20px;
     letter-spacing: -0.01em;
 }
-.gnb {
+#masthead .gnb {
     letter-spacing: -0.01em;
 }
 
@@ -82,16 +82,16 @@ h1 {
     #masthead {
         background: transparent url('/images/header-bg.png') 50% 0 repeat-x;
     }
-    .logo {
+    #masthead .logo {
         padding-top: 27px;
     }
-    .gnb {
+    #masthead .gnb {
         padding-top: 71px;
     }
-    .gnb > ul {
+    #masthead .gnb > ul {
         display: flex;
     }
-    .gnb > ul > li > a {
+    #masthead .gnb > ul > li > a {
         display: block;
         padding: 6px 6.5px;
         text-transform: uppercase;
