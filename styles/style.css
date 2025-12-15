@@ -78,7 +78,7 @@ body {
         background: #fff;
     }
 /* END::body */
-/* BEGIN::header */
+/* BEGIN::#masthead */
     #masthead {
         background: transparent url('/images/header-bg.png') 50% 0 repeat-x;
     }
@@ -96,7 +96,7 @@ body {
         padding: 6px 6.5px;
         text-transform: uppercase;
     }
-/* END::header */
+/* END::#masthead */
 
 /*** Scaffolding ***/
 #content, #sidebar {
