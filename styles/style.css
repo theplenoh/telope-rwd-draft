@@ -35,11 +35,11 @@ body {
     line-height: 1.0;
 }
 
-header {
+#masthead {
     font-size: 13px;
     color: #fff;
 }
-header a {
+#masthead a {
     color: inherit;
     text-decoration: none;
 }
@@ -59,10 +59,10 @@ h1 {
 }
 
 /*** Layout ***/
-header {
+#masthead {
     width: 100%;
 }
-header > .wrap-inner {
+#masthead > .wrap-inner {
     display: flex;
     justify-content: space-between;
     width: 960px;
@@ -79,7 +79,7 @@ header > .wrap-inner {
     }
 /* END::body */
 /* BEGIN::header */
-    header {
+    #masthead {
         background: transparent url('/images/header-bg.png') 50% 0 repeat-x;
     }
     #logo {
