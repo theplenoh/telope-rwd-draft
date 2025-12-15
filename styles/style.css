@@ -82,7 +82,7 @@ h1 {
     #masthead {
         background: transparent url('/images/header-bg.png') 50% 0 repeat-x;
     }
-    #logo {
+    .logo {
         padding-top: 27px;
     }
     .gnb {
