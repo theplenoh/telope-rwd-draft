@@ -28,6 +28,15 @@ mark {
     color: inherit;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+a:hover {
+    color: #4c89c6;
+    text-decoration: underline;
+}
+
 /*** Typography ***/
 body {
     font-family: 'Noto Sans', sans-serif;
