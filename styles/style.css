@@ -69,6 +69,18 @@ body {
     height: 110px;
     margin: 0 auto;
 }
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: calc(100vh - 110px);
+}
+#content {
+    width: 710px;
+}
+#sidebar {
+    width: 220px;
+}
 
 /*** Modules ***/
 
@@ -97,8 +109,11 @@ body {
         text-transform: uppercase;
     }
 /* END::#masthead */
+/* BEGIN::#sidebar */
+    #sidebar {
+        margin-left: 30px;
+        background-color: #f7f7f7;
+    }
+/* END::#sidebar */
 
 /*** Scaffolding ***/
-#content, #sidebar {
-    display: none;
-}
