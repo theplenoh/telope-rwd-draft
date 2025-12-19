@@ -31,8 +31,10 @@ mark {
 /*** Typography ***/
 body {
     font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.0;
+    color: #666;
 }
 
 #masthead {
