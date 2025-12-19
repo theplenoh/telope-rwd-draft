@@ -117,6 +117,9 @@ body {
     #masthead {
         background: transparent url('/images/header-bg.png') 50% 0 repeat-x;
     }
+    #masthead .wrap-inner {
+        background: transparent url('/images/header-bg.png') 50% 0 repeat-x;
+    }
     #masthead .logo {
         padding-top: 27px;
     }
