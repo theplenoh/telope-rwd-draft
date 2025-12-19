@@ -101,6 +101,10 @@ body {
 }
 
 /*** Modules ***/
+.description {
+    font-size: 11px;
+    line-height: 1.2;
+}
 
 /*** Details ***/
 /* BEGIN::body */
