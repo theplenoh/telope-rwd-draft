@@ -92,9 +92,12 @@ body {
 }
 #content {
     width: 710px;
+    padding: 30px 0 30px;
 }
 #sidebar {
     width: 220px;
+    margin-left: 30px;
+    padding: 30px 15px 30px;
 }
 
 /*** Modules ***/
@@ -126,7 +129,6 @@ body {
 /* END::#masthead */
 /* BEGIN::#sidebar */
     #sidebar {
-        margin-left: 30px;
         background-color: #f7f7f7;
     }
 /* END::#sidebar */
