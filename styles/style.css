@@ -74,6 +74,10 @@ body {
     line-height: 34px;
     color: #333;
 }
+#content .post-entry-body p {
+    margin: 1.0em 0;
+    line-height: 1.6;
+}
 
 #footer address {
     font-size: 11px;
