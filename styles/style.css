@@ -70,11 +70,13 @@ body {
 }
 
 #content .post-entry h2 {
+    font-family: 'Pretendard', 'Noto Sans', sans-serif;
     font-size: 20px;
     line-height: 34px;
     color: #333;
 }
 #content .post-entry-body p {
+    font-family: 'Pretendard', 'Noto Sans', sans-serif;
     margin: 1.0em 0;
     line-height: 1.6;
 }
