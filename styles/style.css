@@ -150,6 +150,12 @@ body {
     #content .post-entry-info dd {
         padding-right: 0.25em;
     }
+    #content .post-entry-mgt ul > * {
+        display: inline-block;
+    }
+    #content .post-entry-mgt li {
+        margin-right: 0.25em;
+    }
 /* END::#content */
 /* BEGIN::#sidebar */
     #sidebar {
