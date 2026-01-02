@@ -148,7 +148,7 @@ body {
         display: inline-block;
     }
     #content .post-entry-info dd {
-        padding-right: 0.25em;
+        margin-right: 0.25em;
     }
     #content .post-entry-mgt ul > * {
         display: inline-block;
