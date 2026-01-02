@@ -143,6 +143,14 @@ body {
         text-transform: uppercase;
     }
 /* END::#masthead */
+/* BEGIN::#content */
+    #content .post-entry-info dl > * {
+        display: inline-block;
+    }
+    #content .post-entry-info dd {
+        padding-right: 0.25em;
+    }
+/* END::#content */
 /* BEGIN::#sidebar */
     #sidebar {
         background-color: #f7f7f7;
