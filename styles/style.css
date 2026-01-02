@@ -72,6 +72,7 @@ body {
 #content .post-entry h2 {
     font-size: 20px;
     line-height: 34px;
+    color: #333;
 }
 
 #footer address {
@@ -144,6 +145,15 @@ body {
     }
 /* END::#masthead */
 /* BEGIN::#content */
+    #content .post-entry header {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 0.45em;
+    }
+    #content .post-entry header > div {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.25em 0 0.45em;
+    }
     #content .post-entry-info dl > * {
         display: inline-block;
     }
