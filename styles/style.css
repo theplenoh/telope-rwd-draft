@@ -82,6 +82,10 @@ body {
     line-height: 1.6;
 }
 
+#sidebar .description {
+    font-family: 'Pretendard', sans-serif;
+}
+
 #footer address {
     font-size: 11px;
 }
