@@ -156,3 +156,6 @@ body {
 /* END::#footer */
 
 /*** Scaffolding ***/
+#sidebar .pages {
+    display: none;
+}
