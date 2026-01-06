@@ -171,6 +171,15 @@ body {
         padding: 6px 6.5px;
         text-transform: uppercase;
     }
+    @media screen and (max-width: 810px) {
+        #masthead .logo {
+            padding-top: 18px;
+            padding-left: 15px;
+        }
+        #masthead .subtitle {
+            display: none;
+        }
+    }
 /* END::#masthead */
 /* BEGIN::#content */
     #content .post-entry header {
