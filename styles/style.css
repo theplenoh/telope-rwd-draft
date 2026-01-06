@@ -82,7 +82,7 @@ body {
     line-height: 1.6;
 }
 
-#sidebar .description {
+#sidebar {
     font-family: 'Pretendard', sans-serif;
 }
 #sidebar .pages {
