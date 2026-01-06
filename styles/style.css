@@ -192,6 +192,10 @@ body {
     #sidebar {
         background-color: #f7f7f7;
     }
+    #sidebar .pages li > a {
+        display: block;
+        padding: 3.5px 0;
+    }
 /* END::#sidebar */
 /* BEGIN::#footer */
     #footer address {
