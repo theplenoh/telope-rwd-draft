@@ -70,7 +70,11 @@ body {
 }
 @media screen and (max-width: 810px) {
     #masthead h1 {
-        font-size: 30px;
+        font-size: 29px;
+    }
+    #masthead .subtitle {
+        font-size: 12px;
+        line-height: 10px;
     }
 }
 
@@ -183,7 +187,8 @@ body {
             background-position-y: calc(50% + 10px);
         }
         #masthead .logo {
-            padding-top: 18px;
+            flex-shrink: 0;
+            padding-top: 12px;
             padding-left: 15px;
         }
     }
