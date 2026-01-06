@@ -85,6 +85,9 @@ body {
 #sidebar .description {
     font-family: 'Pretendard', sans-serif;
 }
+#sidebar .pages {
+    font-size: 13px;
+}
 
 #footer address {
     font-size: 11px;
