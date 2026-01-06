@@ -126,6 +126,9 @@ body {
     font-size: 11px;
     line-height: 1.2;
 }
+.pages {
+    margin: 10px 0;
+}
 
 .post-entry {
     margin-bottom: 30px;
