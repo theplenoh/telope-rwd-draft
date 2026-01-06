@@ -68,6 +68,11 @@ body {
 #masthead .gnb {
     letter-spacing: -0.01em;
 }
+@media screen and (max-width: 810px) {
+    #masthead h1 {
+        font-size: 30px;
+    }
+}
 
 #content .post-entry  {
     font-family: 'Pretendard', sans-serif;
@@ -155,7 +160,9 @@ body {
         background: transparent url('/images/header-bg.png') 50% 0 repeat-x;
     }
     #masthead .wrap-inner {
-        background: transparent url('/images/header-bg.png') 50% 0 repeat-x;
+        background: transparent url('/images/header-bg.png') repeat-x;
+        background-position-y: 50%;
+        background-position-x: 0;
     }
     #masthead .logo {
         padding-top: 27px;
@@ -172,6 +179,9 @@ body {
         text-transform: uppercase;
     }
     @media screen and (max-width: 810px) {
+        #masthead .wrap-inner {
+            background-position-y: calc(50% + 10px);
+        }
         #masthead .logo {
             padding-top: 18px;
             padding-left: 15px;
