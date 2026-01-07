@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
     }
 
     jQuery(window).resize(function() {
-        //jQuery("#gnb *").off();
+        jQuery("#masthead .gnb *").off();
         if(jQuery(window).width() <= 810) {
             bpSmall();
         }
