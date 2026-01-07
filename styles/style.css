@@ -83,7 +83,6 @@ body {
 }
 #content .post-entry h2 {
     font-size: 20px;
-    line-height: 34px;
     color: #333;
 }
 #content .post-entry-body p {
@@ -271,6 +270,9 @@ body {
     }
 /* END::#masthead */
 /* BEGIN::#content */
+    #content .post-entry h2 {
+        padding: 7px 0;
+    }
     #content .post-entry header {
         border-bottom: 1px solid #ccc;
         margin-bottom: 0.45em;
