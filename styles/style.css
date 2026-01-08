@@ -102,6 +102,9 @@ body {
 }
 
 /*** Layout ***/
+body {
+    position: relative;
+}
 #masthead {
     width: 100%;
 }
