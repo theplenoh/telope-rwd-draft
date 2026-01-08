@@ -312,6 +312,6 @@ body {
 /* END::#footer */
 
 /*** Scaffolding ***/
-#container, #footer {
+#footer {
     display: none;
 }

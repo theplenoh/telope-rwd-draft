@@ -1,7 +1,7 @@
 function bpSmall() {
     //console.log("bpSmall() called");
     jQuery("#masthead .gnb .btn-menu").on("click", function() {
-        jQuery("#container").toggle();
+        jQuery("#sidebar").toggle();
     });
 }
 function bpMedium() {
