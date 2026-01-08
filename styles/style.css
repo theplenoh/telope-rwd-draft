@@ -275,6 +275,22 @@ body {
         }
     }
 /* END::#masthead */
+/* BEGIN::#container */
+    #container {
+    }
+    @media screen and (max-width: 810px) {
+        #container.sidebar-on::before {
+            content: '';
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            right: 0;
+            width: 100vw;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.65);
+        }
+    }
+/* END::#container */
 /* BEGIN::#content */
     #content .post-entry h2 {
         padding: 7px 0;
