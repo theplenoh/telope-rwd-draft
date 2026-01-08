@@ -1,5 +1,6 @@
 function bpSmall() {
     //console.log("bpSmall() called");
+    jQuery("#sidebar").hide();
     jQuery("#masthead .gnb .btn-menu").on("click", function() {
         jQuery("#sidebar").toggle();
     });
