@@ -1,8 +1,12 @@
 function bpSmall() {
     //console.log("bpSmall() called");
-    jQuery("#sidebar").hide();
+    jQuery("#sidebar .ctrl .btn-close").on("click", function() {
+        jQuery("#sidebar").hide();
+        jQuery("#container").removeClass("sidebar-on");
+    });
     jQuery("#masthead .gnb .btn-menu").on("click", function() {
-        jQuery("#sidebar").toggle();
+        jQuery("#sidebar").show();
+        jQuery("#container").addClass("sidebar-on");
     });
 }
 function bpMedium() {
@@ -24,7 +28,6 @@ jQuery(document).ready(function() {
     }
 
     jQuery(window).resize(function() {
-        jQuery("#masthead .gnb *").off();
         if(jQuery(window).width() <= 810) {
             bpSmall();
         }
