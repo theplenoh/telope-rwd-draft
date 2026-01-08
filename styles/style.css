@@ -106,8 +106,7 @@ body {
     width: 100%;
 }
 #masthead > .wrap-inner {
-    display: flex;
-    justify-content: space-between;
+    position: relative;
     width: 960px;
     height: 110px;
     margin: 0 auto;
@@ -116,9 +115,6 @@ body {
     #masthead .wrap-inner {
         width: 100%;
         height: 80px;
-    }
-    #masthead .logo {
-        flex-shrink: 0;
     }
 }
 
@@ -185,6 +181,9 @@ body {
         padding-top: 27px;
     }
     #masthead .gnb {
+        position: absolute;
+        top: 0;
+        right: 0;
         padding-top: 71px;
     }
     #masthead .gnb .btn-menu {
@@ -215,7 +214,7 @@ body {
             padding-left: 15px;
         }
         #masthead .gnb {
-            position: relative;
+            position: absolute;
             width: 70px;
             height: 80px;
         }
