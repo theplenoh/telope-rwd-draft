@@ -316,6 +316,7 @@ body {
         padding: 3.5px 0;
     }
     #sidebar-overlay {
+        display: none;
     }
     @media screen and (max-width: 810px) {
         #sidebar {
