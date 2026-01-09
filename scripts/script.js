@@ -6,6 +6,9 @@ function bpSmall() {
     jQuery("#masthead .gnb .btn-menu").on("click", function() {
         jQuery("#sidebar, #sidebar-overlay").show();
     });
+    jQuery("#sidebar-overlay").on("click", function() {
+        jQuery("#sidebar, #sidebar-overlay").hide();
+    });
 }
 function bpMedium() {
     //console.log("bpMedium() called");
