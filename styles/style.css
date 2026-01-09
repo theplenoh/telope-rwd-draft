@@ -345,7 +345,6 @@ body {
             padding: 3.5px;
         }
         #sidebar-overlay {
-            content: '';
             position: absolute;
             display: none;
             z-index: 10;
