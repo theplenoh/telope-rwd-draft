@@ -353,7 +353,8 @@ body {
             right: 0;
             width: 100vw;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.65);
+            background-color: #ccc;
+            opacity: 0.65;
         }
     }
 /* END::#sidebar */
