@@ -9,170 +9,180 @@
 
 
 
-/*** Common ***/
-html, html * {
-    box-sizing: border-box;
-}
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    padding: 0;
-    margin: -1px;
-    border: 0;
-    clip: rect(0, 0, 0, 0);
-}
-mark {
-    background-color: transparent;
-    color: inherit;
-}
+/******************************
+ =Common
+ ******************************/
+    html, html * {
+        box-sizing: border-box;
+    }
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        padding: 0;
+        margin: -1px;
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+    }
+    mark {
+        background-color: transparent;
+        color: inherit;
+    }
 
-a {
-    color: inherit;
-    text-decoration: inherit;
-}
-a:hover {
-    color: #4c89c6;
-    text-decoration: underline;
-}
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+    a:hover {
+        color: #4c89c6;
+        text-decoration: underline;
+    }
 
-/*** Typography ***/
-body {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.0;
-    color: #666;
-}
+/******************************
+ =Typography
+ ******************************/
+    body {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.0;
+        color: #666;
+    }
 
-#masthead {
-    font-size: 13px;
-    color: #fff;
-}
-#masthead a {
-    color: inherit;
-    text-decoration: none;
-}
-#masthead h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 44px;
-}
-#masthead .subtitle {
-    font-size: 13px;
-    line-height: 20px;
-    letter-spacing: -0.01em;
-}
-#masthead .gnb {
-    letter-spacing: -0.01em;
-}
-@media screen and (max-width: 810px) {
+    #masthead {
+        font-size: 13px;
+        color: #fff;
+    }
+    #masthead a {
+        color: inherit;
+        text-decoration: none;
+    }
     #masthead h1 {
-        font-size: 29px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
     }
     #masthead .subtitle {
-        font-size: 12px;
-        line-height: 10px;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: -0.01em;
     }
-}
-
-#content .post-entry  {
-    font-family: 'Pretendard', sans-serif;
-}
-#content .post-entry h2 {
-    font-size: 20px;
-    color: #333;
-}
-#content .post-entry-body p {
-    margin: 1.0em 0;
-    line-height: 1.6;
-}
-
-#sidebar {
-    font-family: 'Pretendard', sans-serif;
-}
-#sidebar .pages {
-    font-size: 13px;
-}
-
-#footer address {
-    font-size: 11px;
-}
-
-/*** Layout ***/
-body {
-    position: relative;
-}
-#masthead {
-    width: 100%;
-}
-#masthead > .wrap-inner {
-    position: relative;
-    width: 960px;
-    height: 110px;
-    margin: 0 auto;
-}
-@media screen and (max-width: 810px) {
-    #masthead .wrap-inner {
-        width: 100%;
-        height: 80px;
+    #masthead .gnb {
+        letter-spacing: -0.01em;
     }
-}
+    @media screen and (max-width: 810px) {
+        #masthead h1 {
+            font-size: 29px;
+        }
+        #masthead .subtitle {
+            font-size: 12px;
+            line-height: 10px;
+        }
+    }
 
-#container {
-    display: flex;
-    align-items: stretch;
-    width: 960px;
-    min-height: calc(100vh - 110px);
-    margin: 0 auto;
-}
-@media screen and (max-width: 810px) {
-    #container {
-        width: 100%;
+    #content .post-entry  {
+        font-family: 'Pretendard', sans-serif;
     }
-}
-#content {
-    width: 710px;
-    padding: 30px 0 30px;
-}
-@media screen and (max-width: 810px) {
-    #content {
-        width: 100%;
-        padding: 15px 15px 30px;
+    #content .post-entry h2 {
+        font-size: 20px;
+        color: #333;
     }
-}
-#sidebar {
-    width: 220px;
-    margin-left: 30px;
-    padding: 30px 15px 30px;
-}
-@media screen and (max-width: 810px) {
+    #content .post-entry-body p {
+        margin: 1.0em 0;
+        line-height: 1.6;
+    }
+
     #sidebar {
-        width: 290px;
-        height: 100%;
-        padding: 0 15px 30px;
+        font-family: 'Pretendard', sans-serif;
     }
-}
-#footer {
-    padding: 10px 0 10px;
-}
+    #sidebar .pages {
+        font-size: 13px;
+    }
 
-/*** Modules ***/
-.description {
-    font-size: 11px;
-    line-height: 1.2;
-}
-.pages {
-    margin: 10px 0;
-}
+    #footer address {
+        font-size: 11px;
+    }
 
-.post-entry {
-    margin-bottom: 30px;
-}
+/******************************
+ =Layout
+ ******************************/
+    body {
+        position: relative;
+    }
+    #masthead {
+        width: 100%;
+    }
+    #masthead > .wrap-inner {
+        position: relative;
+        width: 960px;
+        height: 110px;
+        margin: 0 auto;
+    }
+    @media screen and (max-width: 810px) {
+        #masthead .wrap-inner {
+            width: 100%;
+            height: 80px;
+        }
+    }
 
-/*** Details ***/
+    #container {
+        display: flex;
+        align-items: stretch;
+        width: 960px;
+        min-height: calc(100vh - 110px);
+        margin: 0 auto;
+    }
+    @media screen and (max-width: 810px) {
+        #container {
+            width: 100%;
+        }
+    }
+    #content {
+        width: 710px;
+        padding: 30px 0 30px;
+    }
+    @media screen and (max-width: 810px) {
+        #content {
+            width: 100%;
+            padding: 15px 15px 30px;
+        }
+    }
+    #sidebar {
+        width: 220px;
+        margin-left: 30px;
+        padding: 30px 15px 30px;
+    }
+    @media screen and (max-width: 810px) {
+        #sidebar {
+            width: 290px;
+            height: 100%;
+            padding: 0 15px 30px;
+        }
+    }
+    #footer {
+        padding: 10px 0 10px;
+    }
+
+/******************************
+ =Modules
+ ******************************/
+    .description {
+        font-size: 11px;
+        line-height: 1.2;
+    }
+    .pages {
+        margin: 10px 0;
+    }
+
+    .post-entry {
+        margin-bottom: 30px;
+    }
+
+/******************************
+ =Details
+ ******************************/
 /* BEGIN::body */
     body {
         background: #fff;
@@ -365,7 +375,7 @@ body {
     }
 /* END::#footer */
 
-/*** Scaffolding ***/
+/*** =Scaffolding ***/
 #footer {
     display: none;
 }
