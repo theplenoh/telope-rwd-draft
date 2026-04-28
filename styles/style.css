@@ -307,10 +307,10 @@
     #content .post-entry-info dd {
         margin-right: 0.25em;
     }
-    #content .post-entry-mgt ul > * {
+    #content .post-entry-mgmt ul > * {
         display: inline-block;
     }
-    #content .post-entry-mgt li {
+    #content .post-entry-mgmt li {
         margin-right: 0.25em;
     }
 /* END::#content */
